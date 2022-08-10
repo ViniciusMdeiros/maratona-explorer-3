@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(110, 202, 220);
+}
+
+ul{
+    list-style: none; 
+}
+
+ header, section{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/*  Header */
+
+header{
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    color: black;
+    font-family:'Lucida handwriting', Lucida, fantasy;
+    font-style: italic;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-inline-start: -16px;
+}
+header h1 span{
+    color:rgb(223, 104, 195);
+    font-size: 50px;
+}
+header p1 {
+    color: rgba(0, 0, 0, 0.8);
+    font-family:'Lucida Sans', Lucida, fantasy;
+    font-size: 16px;
+}
+
+/* Section */
+
+section{
+    margin-bottom: 24px;
+}
+
+section h2 {
+    background-color: rgb(208, 91, 91);
+    color: black;
+    font-family:'Lucida handwriting', Lucida, fantasy;
+    text-align: center;
+    padding: 8px 16px;
+    margin-bottom: 24px;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+section h3 {
+    color: black;
+    font-size: 20px;
+    font-family:'Lucida handwriting', Lucida, fantasy;
+    text-transform: uppercase;
+}
+section p3 {
+    color: rgba(0, 0, 0, 0.7);
+    font-family:'Lucida Sans', Lucida, fantasy;
+    margin-bottom: 24px;
+    line-height: 21px;
+}
+section strong{
+    color: black;
+    font-family:'Lucida Sans', Lucida, fantasy;
+    padding-top: 60px;
+}
+ul li{
+    margin-bottom: 16px;
+    display: flex;
+}
+  li .details{
+    max-width: 240px;
+}
